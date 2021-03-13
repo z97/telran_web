@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 0 100px;*/
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: start;
+}
+
+.main-nav li {
+    padding: 5px 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.main-nav a {
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.header {
+    background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+    ),
+    url("../images/header-bg.jpeg");
+    height: 560px;
+    padding-top: 100px;
+}
+
+.header-title {
+    color: #f7c119;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.header-phone {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.taxi {
+    background-color: #f7c119;
+    padding-top: 400px;
+    position: relative;
+}
+
+.yellow-car {
+    position: absolute;
+    top: -190px;
+    left: 500px;
+}
+
+.taxi-wrapper {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.taxi-info {
+    width: 45%;
+}
+
+.taxi-subtitle {
+    color: #111;
+}
+
+.taxi-title {
+    color: #111;
+}
+
+.taxi-descr {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.taxi-form {
+    width: 45%;
+    background-color: #111;
+    padding: 35px;
+}
+
+.taxi-form input,
+.taxi-form textarea {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.taxi-form textarea {
+    height: 7em;
+}
+
+.btn-submit {
+    background-color: #fff;
+    color: #111111;
+}
+
+.services {
+    padding: 100px 0;
+}
+
+.services-title {
+    color: #111;
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.service {
+    width: 28%;
+    text-align: center;
+}
+
+.service-image {
+    width: 75%;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.service img {
+    max-height: 100px;
+}
+
+.service-name {
+    font-size: 21px;
+}
+
+.wish {
+    background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/wish-bg.jpeg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.wish-subtitle {
+    color: #fff;
+    text-align: center;
+}
+
+.wish-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.wish-text {
+    color: #fff;
+    text-align: center;
+}
+
+.wish-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.wish-item {
+    width: 45%;
+}
+
+.wish-item-title {
+    color: #f7c119;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.wish-item-descr {
+    font-size: 18px;
+    color: #fff;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+
+.cars {
+    padding: 100px 0;
+}
+
+.cars-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.car {
+    width: 28%;
+}
+
+.car-img {
+    text-align: center;
+}
+
+.car-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.clients {
+    background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/clients-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.clients-subtitle {
+    color: #fff;
+    text-align: center;
+}
+
+.clients-title {
+    color: #fff;
+    text-align: center;
+}
+
+.clients-list {
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.client {
+    width: 45%;
+    display: flex;
+}
+
+.client-photo {
+    width: 500px;
+}
+
+.client-photo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.client-testimonial {
+    padding-left: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.client-name {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: #f7c119;
+    text-transform: uppercase;
+}
+
+.banner {
+    background-color: #f7c119;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner-text {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner-phone {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.payments {
+    padding: 100px 0;
+    background-color: #111;
+}
+
+.payments-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.payments-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #808080;
+}
+
+.payment {
+    width: 45%;
+}
+
+.payment-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.payment-descr {
+    font-size: 21px;
+    color: #808080;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}

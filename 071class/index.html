@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form name="personalData" action="#" method="get">
+        <fieldset>
+            <legend>Personal data</legend>
+            <p>
+                <label>First name: <input type="text" name="firstName" placeholder="John"></label>
+            </p>
+            <p>
+                <label>Last name: <input type="text" name="lastName" placeholder="Smith"></label>
+            </p>
+            <p>
+                <label>E-mail: <input type="email" name="login" required autofocus></label>
+            </p>
+            <p>
+                <label for="password">Password: </label>
+                <input id="password" type="password" name="password">
+            </p>
+            <p>
+                Gender:
+                <label>Male: <input type="radio" name="gender" value="1"></label>
+                <label>Female: <input type="radio" name="gender" value="0"></label>
+            </p>
+            <p>
+                Hobby:
+                <label>Vodka <input type="checkbox" name="vodka"> </label>
+                <label>Vcannabis <input type="checkbox" name="cannabis"> </label>
+            </p>
+            <p>
+                <label>Code:
+                    <select name="code">
+                        <option value="1">USA</option>
+                        <option value="972">Israel</option>
+
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>Birth date: <input type="date" name="birthDate"></label>
+            </p>
+            <p>
+                <label>Comment:
+                    <textarea name="comment" cols="30" rows="10"
+                </label>
+            </p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+            <input type="button" value="Prev">
+            <button> Next </button>
+        </fieldset>
+    </form>
+</body>
+</html>
