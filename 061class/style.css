@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+div {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.header, .footer {
+    height: 50px;
+}
+
+.header {
+    background-color: blue;
+}
+
+.footer {
+    background-color: pink;
+    clear: both;
+}
+
+/*body=============================*/
+.left1 {
+    height: 300px;
+    width: 150px;
+    background-color: green;
+    float: left;
+}
+
+.left2 {
+    height: 300px;
+    width: 150px;
+    background-color: red;
+    float: left;
+}
+
+.right1 {
+    height: 300px;
+    width: 450px;
+    background-color: goldenrod;
+    float: right;
+}
+
+.right2 {
+    height: 100px;
+    width: 50px;
+    background-color: darkviolet;
+    float: right;
+}
+
+.right3 {
+    height: 300px;
+    width: 800px;
+    background-color: deeppink;
+    float: right;
+}
+
+.clear-fix::after {
+    clear: both;
+}
+

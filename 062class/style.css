@@ -1,0 +1,31 @@
+.flex-container {
+    width: 1000px;
+    height: 500px;
+    background-color: pink;
+    margin: 0 auto;
+    color: red;
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.item.large {
+    height: 200px;
+    font-size: 1.5em;
+}
+
+.item.small{
+    height: 100px;
+
+}
+.item {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    background-color: blue;
+    text-align: center;
+    flex-shrink: 0;
+}
