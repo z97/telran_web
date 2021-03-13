@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    border: 1px solid green;
+    height: 400px;
+    background-image: url("images/coffee-bgnd.jpeg");
+    background-position: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.header > h1 {
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgb(3, 150, 100);
+    text-align: center;
+    /*alternative solutions
+    padding-top: 100px;
+    margin-top: 100px;
+    */
+}
+
+.main {
+    position: relative;
+}
+
+.main h2 {
+    font-weight: 600;
+    font-size: 28px;
+    background: #aa8eb6;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+a {
+    padding: 0 10px 0 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.main p {
+    color: #445544;
+    font-weight: 500;
+    padding: 0 10px 0 10px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.brazil, .columbia, .india, .ethiopia, .costa_rica, .kenya {
+    height: 300px;
+    width: 50%;
+}
+
+.brazil {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.columbia {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+}
+
+.india {
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+
+.ethiopia {
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+.costa_rica {
+    position: absolute;
+    top: 600px;
+    left: 0;
+}
+
+.kenya {
+    position: absolute;
+    top: 600px;
+    right: 0;
+}

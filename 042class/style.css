@@ -1,0 +1,52 @@
+.header, .footer {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: violet;
+    /*
+    position: fixed;
+    bottom:0;
+    right:0;
+    */
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    width: 70%;
+}
+
+.main {
+    height: 500px;
+    background-color: crimson;
+    position: relative;
+}
+
+.div1, .div2, .div3 {
+    height: 100px;
+    width: 50%;
+}
+
+.div3 {
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+.div2 {
+    background-color: blue;
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+
+.div1 {
+    background-color: yellow;
+    position: absolute;
+    top:100px;
+    right:0;
+}

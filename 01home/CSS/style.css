@@ -1,0 +1,41 @@
+body{
+    background-color: #f1f5fc;
+    font-family: "Source Sans Pro", sans-serif;
+}
+#photo{
+    height : 340px;
+    width : 340px;
+    border-radius: 5%;
+}
+a:link, a:visited {
+    background-color: #6bdcff;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+a:hover, a:active {
+    background-color: #b9e0fd;
+
+}
+table{
+    background-color : #f6ffff;
+    border-collapse: collapse;
+    cursor: grab;
+    border-radius: 20px;
+}
+th {
+    text-align: left;
+    background-color: #f6ffff;
+    color: black;
+    padding: 6px;
+    border-radius: 20px;
+}
+td{
+    padding: 6px;
+}
+tr:hover {
+    background-color: #b9e0fd;
+}
