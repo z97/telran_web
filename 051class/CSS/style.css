@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    /*padding-top: 135px;*/
+    /*box-sizing: border-box;*/
+    /*padding-top: 1px;*/
+    /*border-top: 1px solid transparent;*/
+}
+
+.header > h1 {
+    font-size: 100px;
+    /*margin: 134px 0 0;*/
+    margin: 0;
+    padding-top: 135px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
+    text-align: center;
+}
+
+.main {
+    position: relative;
+}
+
+.left, .right {
+    position: absolute;
+    top: 0;
+    width: 49%;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.left > div, .right > div{
+    margin: 100px 0;
+    border-bottom: 1px solid #e4bb97;
+    padding-bottom: 60px;
+    height: 230px;
+    overflow-y: auto;
+}
+
+.main h2 {
+    font-weight: 600;
+    font-size: 28px;
+    background-color: #aa8eb5;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main p {
+    color: #454;
+    font-weight: 500;
+    padding: 0 5px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+}
+
+a:link {
+    color: #214e34;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}

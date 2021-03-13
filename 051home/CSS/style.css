@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poller One', cursive;
+    background-image: url("../Images/sky.jpg");
+    color: gold;
+    background-attachment: fixed;
+}
+
+/*Header====================*/
+header {
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 30px 30px 0 0;
+}
+
+nav > ul {
+    list-style: none;
+    position: fixed;
+    top: 5px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav li {
+    display: inline;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 05);
+    cursor: pointer;
+}
+
+/*Main========================*/
+/*Main Left Image=============*/
+.left {
+    float: left;
+    margin: 5px 15px 0 5px;
+}
+
+.left img {
+    box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+}
+
+/*Main Text======================*/
+.farGalaxy {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/*Main Right Dream Team============*/
+.right {
+    float: right;
+    margin: 5px 5px 0;
+    border: 1px solid gold;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    height: 410px;
+    width: 495px;
+}
+
+/*Main Right Dream Team Text=====*/
+
+.right .header-text {
+    text-align: center;
+    top: 0.5em;
+    margin: 0 auto;
+    padding-top: 0.5em;
+
+}
+
+/*Main Right Dream Team Images===*/
+.right img {
+    width: 160px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+
+.right .left-images {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 160px;
+}
+
+.right .right-images {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 160px;
+}
+
+.right .center-images {
+    position: absolute;
+    right: 170px;
+    top: 40px;
+    width: 160px;
+}
+
+.right .left-bottom-image {
+    border-bottom-left-radius: 20px;
+}
+
+.right .right-bottom-image {
+    border-bottom-right-radius: 20px;
+}
+
+
+/*Footer========================*/
+footer {
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 0 0 30px 30px;
+    height: 6em;
+    clear: both;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 05);
+    cursor: pointer;
+    width: 9em;
+    height: 2em;
+    margin-top: 2em;
+    margin-left: 18em;
+}
+
+.button > p {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
