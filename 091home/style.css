@@ -1,0 +1,29 @@
+.jumbotron {
+    background-image: url("images/coffee-bgnd.jpeg");
+    background-size: cover;
+    height: 200%;
+}
+
+.jumbotron-image {
+    background-position: center;
+}
+
+h2{
+    background-color: #aa8eb6;
+    padding: 0.2em;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgb(3, 150, 100);
+    font-size: 100px;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}

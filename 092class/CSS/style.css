@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poller One', cursive;
+    background-image: url("../Images/sky.jpg");
+    color: gold;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: rgba(60, 69, 67, 0.6);
+}
+
+/*header*/
+header {
+    border-radius: 15px 15px 0 0;
+    font-size: 1rem;
+}
+
+.btn-danger {
+    background-color: rgba(204, 3, 35, 0.5);
+    color: gold;
+    font-size: 1em;
+}
+
+header > h1 {
+    font-size: 2em;
+}
+
+/*main*/
+.border {
+    border-radius: 0 0 15px 15px;
+    border-color: gold !important;
+}
+
+.farGalaxy {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+}
+
+.bottomLeft {
+    border-bottom-left-radius: 15px;
+}
+
+.bottomRight {
+    border-bottom-right-radius: 15px;
+}
+
+.float-left img {
+    box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+}
+
+/*footer*/
+footer {
+    border-radius: 0 0 15px 15px;
+    height: 6em;
+
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+.email {
+    font-size: 1.2em;
+    color: black;
+}
