@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, serif;
+    padding: 2em;
+    background-color: whitesmoke;
+}
+
+h1, h2{
+    font-size: 2.5em;
+}
+
+.skillset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skillset > * {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 1em 3em 2em 2em;
+
+}
+
+.skill-html{
+    background-color: #e55126;
+}
+
+.skill-js{
+    background-color: #e5a227;
+}
+
+.skill-jquery{
+    background-color: #0c73b8;
+}
+
+.skill-reactjs{
+    background-color: #b8007a;
+}
+
+.skill-java{
+    background-color: #1ecc4b;
+}
+
+.skill-spring{
+    background-color: #eada28;
+}
+
+.project-button{
+    cursor: pointer;
+}
+.active{
+    background-color: whitesmoke;
+
+}
