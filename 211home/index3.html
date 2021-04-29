@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persons</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container p-3 my-3 border">
+    <label>ID:
+        <input id="personId" type="text">
+    </label>
+    <label>First name:
+        <input id="firstName" type="text">
+    </label>
+    <label>Last name:
+        <input id="lastName" type="text">
+    </label>
+    <label>Birth date:
+        <input id="age" type="date">
+    </label>
+</div>
+<div class="container p-3 my-3 border">
+    <button id="addPerson" type="button" class="btn btn-primary">Add person</button>
+    <button id="calcStats" type="button" class="btn btn-primary">Get stats</button>
+</div>
+<div id="stats" class="container p-3 my-3 border">
+    <h2>Stats</h2>
+</div>
+<div class="container p-3 my-3 border">
+    <h2>Persons</h2>
+    <ol id="personsList"></ol>
+</div>
+</body>
+</html>
