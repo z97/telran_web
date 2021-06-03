@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <script defer src="script.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Homework 25</h1>
+        <p>currency converter</p>
+    </div>
+</div>
+<div class="row">
+    <div class="container col-lg-3 p-3 my-3 border">
+        <label for="from">From:</label>
+        <select id="from" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+        </select>
+        <label for="to">To:</label>
+        <select id="to" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+        </select>
+    </div>
+    <div class="container col-lg-3 p-3 my-3 border">
+        <label for="sum">Sum: </label>
+        <input id="sum" type="number" min="0">
+        <button id="calculate" type="button" class="btn btn-primary">Calculate</button>
+    </div>
+    <div class="container col-lg-3 p-3 my-3 border" id="result"></div>
+</div>
+</body>
+</html>
